@@ -1,5 +1,5 @@
 # Basic-Portfolio
-HomeWork 3 - BasicPortfolio - Bootstrap-Portfolio
+HomeWork 3 - BasicPortfolio - No-Bootstrap-Portfolio
 
 ### Assignment Two Instructions - (No Bootstrap)
 

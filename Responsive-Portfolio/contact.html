@@ -1,52 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact | Basic Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+	<title>Basic-Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" 
+			href="assets/css/reset.css">
+	 <link rel="stylesheet" type="text/css" 
+	 		href="assets/css/style.css"> 
 </head>
+
 <body>
-    <header>
-        <div class="wrapper">
-            <h1>Aditya Shah</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+	<header>
+		<div id="name">
+			<h1>Aditya Shah</h1>
+		</div>
+		<div id="menu">
+			<nav>
+			<ul>
+          		<li><a href="index.html">About</a></li> 
+				<li><a href="portfolio.html">Portfolio</a></li> 
+				<li><a class="active" href="contact.html">Contact</a></li>
+			</ul> 
+			</nav>
+		</div>
+	</header>
 
-<div class="wrapper">
-    <section id="center-column">
-        <h2>Contact</h2>
-
-       <form >
-           <label for="name">Name:</label>
-           <input type="text" name="name" id= "form-name" placeholder=" Enter Name">
-
-           <label for="email">Email:</label>
-           <input type="text" name="email" id= "form-email" placeholder=" Enter Email">
-
-           <label for="message">Message:</label>
-           <textarea name="message" id= "form-message"></textarea>
-
-           <button type ="submit">Submit Form</button>
-       </form> 
-    
+	<section id="full">
+		<div id="main">
+			<h1  class="highlight">Contact</h2>
+			<hr>
+			<form>
+  				<label>Name</label><br>
+  				<input type="text" name="name" 
+  					placeholder="Aditya Shah"><br>
+  				<label>Email</label><br>
+    			<input type="text" name="email" 
+    				placeholder="example@gmail.com"><br>
+    			<label>Message</label><br>
+  				<textarea rows=3 name="message" placeholder="type here"></textarea><br>
+  				<input id="submit" type="submit" 
+  					value="Submit">
+			</form>
+		</div>
     </section>
-    
-</div>
-<div class="clearfix"></div>
-
-<footer>
-    &copy;2018 Aditya Shah
-</footer>
+	<footer>
+	 	Copyright &copy; Aditya Shah
+	</footer>
 
 </body>
 </html>
